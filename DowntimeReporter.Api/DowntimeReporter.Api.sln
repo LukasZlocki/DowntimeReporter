@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DowntimeReporter.Api", "DowntimeReporter.Api\DowntimeReporter.Api.csproj", "{0A34FB6C-3A88-4489-B43C-94ECAF227D92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A34FB6C-3A88-4489-B43C-94ECAF227D92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A34FB6C-3A88-4489-B43C-94ECAF227D92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A34FB6C-3A88-4489-B43C-94ECAF227D92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A34FB6C-3A88-4489-B43C-94ECAF227D92}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD9DC212-F310-4A33-A9A6-177016CE9499}
+	EndGlobalSection
+EndGlobal
