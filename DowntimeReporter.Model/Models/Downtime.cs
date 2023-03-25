@@ -11,7 +11,5 @@
         public Level1 Level1 { get; set;}
         public Level2 Level2 { get; set;}
         public Level3 Level3 { get; set;}
-
-
     }
 }
