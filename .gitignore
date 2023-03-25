@@ -1,12 +1,12 @@
 .vscode/
 .vs/
-DowntimeReporter.Api/obj/
-DowntimeReporter.Data/obj/
+DowntimeReporter.Api/DowntimeReporter.Api/obj/
+DowntimeReporter.Model/obj/
 DowntimeReporter.Service/obj/
 DowntimeReporter.Service/bin/
 
-DowntimeReporter.Api/bin/
-DowntimeReporter.Data/Migrations/
-DowntimeReporter.Data/bin/
+DowntimeReporter.Api/DowntimeReporter.Api/bin/
+DowntimeReporter.Model/Migrations/
+DowntimeReporter.Model/bin/
 
 
