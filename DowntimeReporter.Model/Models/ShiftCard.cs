@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace DowntimeReporter.Model.Models
+﻿namespace DowntimeReporter.Model.Models
 {
     public class ShiftCard
     {
@@ -9,6 +7,6 @@ namespace DowntimeReporter.Model.Models
         public int MinutesLost { get; set; }
 
         // forein keys
-        List<Downtime> downtimesList { get; set; }
+        List<Downtime> DowntimesList { get; set; }
     }
 }
