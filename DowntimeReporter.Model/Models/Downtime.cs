@@ -2,18 +2,16 @@
 {
     public class Downtime
     {
-        public int DowntimeId { get; set; }
+        public int Id { get; set; }
         public DateTime Date { get; set; }
         public int LostMinutes { get; set; }
 
-        // foreign key
-        public int IdLevel0 { get; set; }
-        Level0 lvl0;
-        public int Level1Id { get; set; }
-        Level1 lvl1;
-        public int Level2Id { get; set; }
-        Level2 lvl2;
-        public int Level3Id { get; set; }
-        Level3 lvl3;
+        public ShiftCard ShiftCard { get; set; }
+        public Level0 Level0 { get; set; }
+        public Level1 Level1 { get; set;}
+        public Level2 Level2 { get; set;}
+        public Level3 Level3 { get; set;}
+
+
     }
 }

@@ -2,10 +2,11 @@
 {
     public class Level1
     {
-        public int Level1Id { get; set; }
+        public int Id { get; set; }
         public string Description { get; set; }
 
-        // foreign key
-        public int Level2Id { get; set; }
+        public List<Level2> Level2List { get; set; }
+
+        public Level0 Lvl0 { get; set; }
     }
 }

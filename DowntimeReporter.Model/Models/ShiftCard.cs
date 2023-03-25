@@ -6,7 +6,6 @@
         public DateTime Date { get; set; }
         public int MinutesLost { get; set; }
 
-        // forein keys
         List<Downtime> DowntimesList { get; set; }
     }
 }

@@ -1,11 +1,12 @@
-﻿namespace DowntimeReporter.Model.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace DowntimeReporter.Model.Models
 {
     public class Level0
     {
-        public int Level0Id { get; set; }
+        public int Id { get; set; }
         public string Description { get; set; }
 
-        // foreign key
-        public int Level1Id { get; set; }
+        public List<Level1> Level1List { get; set; }
     }
 }
